@@ -25,7 +25,7 @@ if st.button("Save Profile"):
     }
 
     res = r.post(
-        f"{b__url}/profile_recruiter",
+        f"{b_url}/profile_recruiter",
         data=payload,
         files={"pic": pic}
     )
